@@ -1,7 +1,7 @@
 # Volusia County Data Security Analysis
 
 ## Project Overview
-This project is developed for the Volusia County Sheriff's Office as part of a Data Security Analysis Internship. The purpose of the project is to collect network log data from Cisco Firepower Management Center, convert those logs from PDF to CSV using Excel, clean and organize the data, sort IP addresses into public and private categories and then map the public IP addresses to geolocations using Python scripts.
+This project is developed for the Volusia County Sheriff's Office as part of a Security Data Analysis Internship. The purpose of the project is to collect network log data from Cisco Firepower Management Center, convert those logs from PDF to CSV using Excel, clean and organize the data, sort IP addresses into public and private categories and then map the public IP addresses to geolocations using Python scripts.
 
 ## Features
 - **Data Extraction**: Extracts data from PDF reports using Excel.
