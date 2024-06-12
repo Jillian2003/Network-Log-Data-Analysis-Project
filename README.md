@@ -22,5 +22,5 @@ Ensure you have the following installed:
 ## Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/Volusia-County-Data-Security.git
-   cd Volusia-County-Data-Security
+   git clone https://github.com/Jillian2003/Volusia-County-Data-Security-.git
+   cd Volusia-County-Data-Security-
