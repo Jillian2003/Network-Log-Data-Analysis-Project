@@ -1,25 +1,37 @@
-# Data Analytics for Network Security
+# Data Analytics for Network Security at Company A
 
 ## Project Overview
-The purpose of the project is to collect network log data from Cisco Firepower Management Center, convert those logs from PDF to CSV using Excel, clean and organize the data, sort IP addresses into public and private categories and then map the public IP addresses to geolocations using Python scripts.
+The goal of this project is to analyze network log data to identify and map public IP addresses that have been blocked by Company A's Server. The logs are first extracted, cleaned, and organized, followed by categorization of IP addresses using Python scripts. The Logs are then loaded into a compelling Power BI dashboard that encompases the data?? 
 
 ## Features
-- **Data Extraction**: Extracts data from PDF reports using Excel.
-- **Data Cleaning**: Cleans and organizes the extracted data into a usable format.
-- **IP Sorting**: Uses the `ipaddress` module to sort IP addresses into public and private categories.
-- **Geolocation Mapping**: Maps public IP addresses to their geographical locations and visualizes them in an HTML file using Folium.
+- **Data Extraction**: Converts network log data from PDF reports to CSV format using Excel.
+- **Data Cleaning** : Processes and organizes the extracted data for further analysis.
+- **IP Sorting**: Categorizes IP addresses into public and private using the ipaddress module.
+- **Visualization**:
+  
+## Tools and Technologies Used
+- **Python**: The primary programming language used for data processing and analysis.
+   - pandas: A powerful data manipulation and analysis library used to clean and organize the data.
+   - ipaddress: A module used to differentiate between public and private IP addresses.
+   - ipinfo: A library that fetches geolocation information for IP addresses.
+   - folium: A library used to generate interactive maps for geolocation visualization.
+- **Excel**: Used to convert PDF network logs into CSV format for processing.
+- **Jupyter Notebook** : For interactive data exploration and analysis during development.
+- **Power BI** : Used for creating advanced visualizations and dashboards, helping to convey insights from the processed data effectively.
 
 ## Project Structure
 - `script.py`: The main script that processes and maps the data.
 - `README.md`: Project documentation (this file).
 - `requirements.txt`: List of Python dependencies required for the project.
 - `.gitignore`: Specifies files and directories to be ignored by Git.
+- ' power bi
 
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.x
 - pip (Python package installer)
 - Microsoft Excel (or any tool that can convert PDF to CSV)
+- power bi 
 
 ## Installation
 1. **Clone the repository**:
