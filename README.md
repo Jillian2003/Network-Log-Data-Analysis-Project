@@ -1,5 +1,8 @@
 # Network Log Data Analysis Project
 
+![Screenshot 2024-09-11 034726](https://github.com/user-attachments/assets/c34f136e-dafc-4c4f-a991-86419af6ab1e)
+
+
 ## Project Overview
 
 The objective of this project is to analyze network log data to identify and visualize public IP addresses that have been blocked within an organization's network. The data is extracted, cleaned, and organized, followed by categorization of IP addresses using custom scripts. The processed data is then presented in a structured HTML file, providing a clear and accessible overview of the findings.
